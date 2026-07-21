@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chandrakanth Vantettinavar | Portfolio</title>
+  <title>Chandrakanth V | SDET Portfolio</title>
   <style>
     /* Global Styles */
     * {
@@ -67,7 +67,7 @@
     /* Hero Section */
     .hero {
       max-width: 1100px;
-      margin: 3rem auto;
+      margin: 2rem auto;
       padding: 2rem;
       display: flex;
       align-items: center;
@@ -148,12 +148,13 @@
       border-bottom: 3px solid #007bff;
       display: inline-block;
       padding-bottom: 0.25rem;
+      color: #1a1a1a;
     }
 
     /* Grid Layout for Cards */
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 1.5rem;
       margin-top: 1.5rem;
     }
@@ -167,6 +168,64 @@
 
     .card h3 {
       margin-bottom: 0.5rem;
+      color: #007bff;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: #444;
+    }
+
+    /* Experience & Project Styling */
+    .job-title {
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: #1a1a1a;
+    }
+
+    .company {
+      font-size: 1.1rem;
+      color: #007bff;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .project-header {
+      margin-top: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid #eee;
+    }
+
+    .meta-tag {
+      display: inline-block;
+      background-color: #e9ecef;
+      color: #495057;
+      padding: 0.2rem 0.6rem;
+      font-size: 0.85rem;
+      border-radius: 4px;
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    ul.styled-list {
+      margin-left: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    ul.styled-list li {
+      margin-bottom: 0.5rem;
+      color: #444;
+    }
+
+    /* Contact Details */
+    .contact-info p {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .contact-info a {
+      color: #007bff;
+      text-decoration: none;
     }
 
     /* Footer */
@@ -200,8 +259,9 @@
       <h1>Chandrakanth V.</h1>
       <ul>
         <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
         <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -210,67 +270,111 @@
   <!-- Hero Section -->
   <div class="hero">
     <div class="hero-text">
-      <h2>Hello, I'm <br>Chandrakanth Vantettinavar</h2>
-      <h3>Software Quality Assurance & Automation Specialist</h3>
-      <p>Welcome to my official portfolio website. I specialize in building robust test automation frameworks, API testing, and delivering high-quality software solutions.</p>
+      <h2>Hello, I'm <br>Chandrakanth V</h2>
+      <h3>Software Development Engineer in Test (SDET)</h3>
+      <p>SDET with 4.1 years of experience specializing in Selenium WebDriver automation, building Hybrid Frameworks, and leveraging Core Java, TestNG, and Cucumber within Agile environments.</p>
       <a href="#contact" class="btn">Get In Touch</a>
     </div>
     <div class="hero-image">
-      <img src="profile.jpg" alt="Chandrakanth Vantettinavar">
+      <img src="profile.jpg" alt="Chandrakanth V">
     </div>
   </div>
 
-  <!-- About Section -->
+  <!-- About / Professional Summary Section -->
   <section id="about">
-    <h2>About Me</h2>
-    <p>I am a dedicated software professional focused on Quality Assurance and Test Automation. With expertise in tools like Java, Selenium, Playwright, and API automation, I am passionate about ensuring performance, reliability, and precision in software applications.</p>
+    <h2>Professional Summary</h2>
+    <p>Software Development Engineer in Test (SDET) with 4.1 years of experience, specializing in Selenium WebDriver automation. Proven expertise in automating web applications, building Hybrid Frameworks, and leveraging Core Java, TestNG, and Cucumber for robust test execution and reporting.</p>
+    <p style="margin-top: 1rem;">Possesses good knowledge of REST API testing (Postman), Jenkins, and a foundational understanding of AWS (EC2, S3) and GCP (Compute Engine, IAM), all within an Agile environment.</p>
+  </section>
+
+  <!-- Work Experience Section -->
+  <section id="experience">
+    <h2>Work Experience</h2>
+    <div class="job-title">Software Development Engineer in Test (SDET)</div>
+    <div class="company">Nuvepro Technologies Private Limited, Bangalore | 4.1 Years</div>
+    
+    <div class="project-header">
+      <h3>Project: Cloud Labs</h3>
+      <div style="margin-top: 0.5rem; margin-bottom: 0.5rem;">
+        <span class="meta-tag">Domain: E-Learning</span>
+        <span class="meta-tag">Process: Agile</span>
+        <span class="meta-tag">Type: Manual & Automation</span>
+      </div>
+      <p><strong>Description:</strong> Cloud Labs platform is designed to manage cloud infrastructure across various cloud providers, such as Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP). It provides tools to control and monitor resources, track spending, and optimize usage.</p>
+    </div>
+
+    <h4 style="margin-top: 1rem; color: #1a1a1a;">Roles & Responsibilities:</h4>
+    <ul class="styled-list">
+      <li>Involved in System Study with respect to customer business workflow.</li>
+      <li>Performed Smoke Testing, Functional Testing, Integration Testing, System Testing, and Ad-hoc Testing.</li>
+      <li>Involved in Regression Testing and analyzing the impacted areas.</li>
+      <li>Actively involved in defect tracking using JIRA.</li>
+      <li>Active participation in Daily Stand-up Meetings, Sprint Review Meetings, Sprint Planning Meetings, Retrospectives, and Backlog Grooming.</li>
+      <li>Understood client requirements and project functionalities to prepare and execute test scripts as per requirements.</li>
+      <li>Involved in test executions including batch, parallel, and cross-browser testing.</li>
+      <li>Maintained test scripts in GitHub and reviewed Automation Test Scripts.</li>
+      <li>Troubleshooting as well as debugging automation scripts.</li>
+    </ul>
   </section>
 
   <!-- Skills Section -->
   <section id="skills">
-    <h2>Skills & Expertise</h2>
+    <h2>Technical Skills</h2>
     <div class="grid">
       <div class="card">
         <h3>Test Automation</h3>
-        <p>Selenium WebDriver, Playwright, CLI/Command-line test execution automation.</p>
+        <p>Selenium WebDriver, TestNG (Annotations, Grouping, Parallel/Batch Execution)</p>
       </div>
       <div class="card">
-        <h3>Programming & API</h3>
-        <p>Java programming, API testing, test documentation, and framework development.</p>
+        <h3>Frameworks</h3>
+        <p>Page Object Model (POM) with Hybrid Driven Framework, BDD (Cucumber)</p>
       </div>
       <div class="card">
-        <h3>Tools & Version Control</h3>
-        <p>Git, Maven/Gradle, CI/CD pipeline integration, and issue tracking tools.</p>
+        <h3>Languages & IDE</h3>
+        <p>Core Java, Eclipse IDE</p>
+      </div>
+      <div class="card">
+        <h3>CI/CD & Build Tools</h3>
+        <p>Jenkins, GitHub, Maven</p>
+      </div>
+      <div class="card">
+        <h3>Bug Tracking & Agile</h3>
+        <p>ZOHO, JIRA, SDLC, STLC, Agile Methodologies</p>
+      </div>
+      <div class="card">
+        <h3>Manual & API Testing</h3>
+        <p>Functional, Integration, System, Regression, Smoke Testing, Defect Life Cycle, REST API Testing (Postman)</p>
+      </div>
+      <div class="card">
+        <h3>Web Element Handling</h3>
+        <p>Pop-ups, Actions Class, Select Class, Robot Class, Data-Driven Testing</p>
+      </div>
+      <div class="card">
+        <h3>SSH Tools & Cloud Basics</h3>
+        <p>WinSCP, PuTTY, Xshell, Basic Knowledge of AWS (EC2, S3) and GCP (Compute Engine, IAM)</p>
       </div>
     </div>
   </section>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2>Featured Projects</h2>
-    <div class="grid">
-      <div class="card">
-        <h3>Web Automation Framework</h3>
-        <p>Designed and built an end-to-end web testing suite using Playwright and Java for high-speed cross-browser testing.</p>
-      </div>
-      <div class="card">
-        <h3>API Testing Suite</h3>
-        <p>Developed structured test cases and automated scripts for RESTful API validation and data verification.</p>
-      </div>
-    </div>
+  <!-- Education Section -->
+  <section id="education">
+    <h2>Education</h2>
+    <div class="job-title">B.Tech in Mechanical Engineering</div>
+    <div class="company" style="color: #555; font-weight: normal;">Reva University, Bangalore</div>
   </section>
 
   <!-- Contact Section -->
   <section id="contact">
-    <h2>Contact</h2>
-    <p>Feel free to reach out to me for collaboration or professional opportunities.</p>
-    <p style="margin-top: 1rem;"><strong>Email:</strong> your.email@example.com</p>
-    <p><strong>LinkedIn:</strong> linkedin.com/in/yourprofile</p>
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+      <p><strong>Phone:</strong> <a href="tel:+919632695627">+91 9632695627</a></p>
+      <p><strong>Email:</strong> <a href="mailto:chandrakanth0326@gmail.com">chandrakanth0326@gmail.com</a></p>
+    </div>
   </section>
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2026 Chandrakanth Vantettinavar. All rights reserved.</p>
+    <p>&copy; 2026 Chandrakanth V. All rights reserved.</p>
   </footer>
 
 </body>
